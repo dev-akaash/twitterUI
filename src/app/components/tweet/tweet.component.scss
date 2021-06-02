@@ -1,0 +1,22 @@
+.wrapper {
+    border-bottom: 1px solid var(--ion-color-light);
+    .tweet-info {
+        font-size: 0.9em;;
+        .name {
+            font-weight: 600;
+        }
+        .handle {
+            padding-left: 4px;
+            color: var(--ion-color-medium);
+        }
+    }
+    .preview-img {
+        border: 1px solid var(--ion-color-light);
+        border-radius: 10px;
+    }
+}
+
+.highlight {
+    color: var(--ion-color-primary);
+}
+
